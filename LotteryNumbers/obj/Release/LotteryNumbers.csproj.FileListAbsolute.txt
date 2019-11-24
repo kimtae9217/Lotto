@@ -1,0 +1,9 @@
+C:\Users\Taewon\Downloads\LottoGen-master\LottoGen-master\LotteryNumbers\bin\Release\LotteryNumbers2.exe.config
+C:\Users\Taewon\Downloads\LottoGen-master\LottoGen-master\LotteryNumbers\bin\Release\LotteryNumbers2.exe
+C:\Users\Taewon\Downloads\LottoGen-master\LottoGen-master\LotteryNumbers\bin\Release\LotteryNumbers2.pdb
+C:\Users\Taewon\Downloads\LottoGen-master\LottoGen-master\LotteryNumbers\obj\Release\LotteryNumbers.Lottery.resources
+C:\Users\Taewon\Downloads\LottoGen-master\LottoGen-master\LotteryNumbers\obj\Release\LotteryNumbers.Properties.Resources.resources
+C:\Users\Taewon\Downloads\LottoGen-master\LottoGen-master\LotteryNumbers\obj\Release\LotteryNumbers.csproj.GenerateResource.cache
+C:\Users\Taewon\Downloads\LottoGen-master\LottoGen-master\LotteryNumbers\obj\Release\LotteryNumbers.csproj.CoreCompileInputs.cache
+C:\Users\Taewon\Downloads\LottoGen-master\LottoGen-master\LotteryNumbers\obj\Release\LotteryNumbers2.exe
+C:\Users\Taewon\Downloads\LottoGen-master\LottoGen-master\LotteryNumbers\obj\Release\LotteryNumbers2.pdb
