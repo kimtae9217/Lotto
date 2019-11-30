@@ -49,6 +49,7 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.txtDisplay7 = new System.Windows.Forms.TextBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -56,6 +57,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -63,7 +65,7 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.button1.Location = new System.Drawing.Point(137, 368);
+            this.button1.Location = new System.Drawing.Point(202, 368);
             this.button1.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(155, 35);
@@ -134,10 +136,10 @@
             // 
             // txtDisplay6
             // 
-            this.txtDisplay6.BackColor = System.Drawing.Color.Crimson;
+            this.txtDisplay6.BackColor = System.Drawing.Color.LightYellow;
             this.txtDisplay6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtDisplay6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDisplay6.Location = new System.Drawing.Point(376, 282);
+            this.txtDisplay6.Location = new System.Drawing.Point(375, 283);
             this.txtDisplay6.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.txtDisplay6.Name = "txtDisplay6";
             this.txtDisplay6.Size = new System.Drawing.Size(39, 23);
@@ -149,7 +151,7 @@
             this.txtGoodLuck.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.txtGoodLuck.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtGoodLuck.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGoodLuck.Location = new System.Drawing.Point(128, 332);
+            this.txtGoodLuck.Location = new System.Drawing.Point(192, 334);
             this.txtGoodLuck.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.txtGoodLuck.Name = "txtGoodLuck";
             this.txtGoodLuck.Size = new System.Drawing.Size(173, 30);
@@ -176,7 +178,7 @@
             this.label1.BackColor = System.Drawing.Color.PaleTurquoise;
             this.label1.Location = new System.Drawing.Point(58, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(320, 250);
+            this.label1.Size = new System.Drawing.Size(461, 250);
             this.label1.TabIndex = 9;
             // 
             // timer1
@@ -255,7 +257,7 @@
             this.txtDisplay7.BackColor = System.Drawing.Color.Crimson;
             this.txtDisplay7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtDisplay7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDisplay7.Location = new System.Drawing.Point(357, 352);
+            this.txtDisplay7.Location = new System.Drawing.Point(503, 284);
             this.txtDisplay7.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.txtDisplay7.Name = "txtDisplay7";
             this.txtDisplay7.Size = new System.Drawing.Size(39, 23);
@@ -265,7 +267,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(340, 334);
+            this.pictureBox7.Location = new System.Drawing.Point(484, 265);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(75, 60);
@@ -273,12 +275,23 @@
             this.pictureBox7.TabIndex = 17;
             this.pictureBox7.TabStop = false;
             // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(432, 276);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(52, 40);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 18;
+            this.pictureBox8.TabStop = false;
+            // 
             // Lottery
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.ClientSize = new System.Drawing.Size(437, 405);
+            this.ClientSize = new System.Drawing.Size(571, 405);
+            this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.txtDisplay7);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtGoodLuck);
@@ -307,6 +320,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -333,6 +347,7 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox8;
     }
 }
 
