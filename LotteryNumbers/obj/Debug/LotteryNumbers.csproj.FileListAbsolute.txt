@@ -25,7 +25,6 @@ C:\Users\Taewon\OneDrive\바탕 화면\LottoGen-master\LottoGen-master\LotteryNu
 C:\Users\Taewon\OneDrive\바탕 화면\LottoGen-master\LottoGen-master\LotteryNumbers\bin\Debug\LotteryNumbers.pdb
 C:\Users\Taewon\OneDrive\바탕 화면\LottoGen-master\LottoGen-master\LotteryNumbers\obj\Debug\LotteryNumbers.csprojAssemblyReference.cache
 C:\Users\Taewon\OneDrive\바탕 화면\LottoGen-master\LottoGen-master\LotteryNumbers\obj\Debug\LotteryNumbers.Lottery.resources
-C:\Users\Taewon\OneDrive\바탕 화면\LottoGen-master\LottoGen-master\LotteryNumbers\obj\Debug\LotteryNumbers.Form2.resources
 C:\Users\Taewon\OneDrive\바탕 화면\LottoGen-master\LottoGen-master\LotteryNumbers\obj\Debug\LotteryNumbers.Properties.Resources.resources
 C:\Users\Taewon\OneDrive\바탕 화면\LottoGen-master\LottoGen-master\LotteryNumbers\obj\Debug\LotteryNumbers.csproj.GenerateResource.cache
 C:\Users\Taewon\OneDrive\바탕 화면\LottoGen-master\LottoGen-master\LotteryNumbers\obj\Debug\LotteryNumbers.csproj.CoreCompileInputs.cache

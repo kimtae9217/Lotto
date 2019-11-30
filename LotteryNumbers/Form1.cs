@@ -17,10 +17,12 @@ namespace LotteryNumbers
         {
             InitializeComponent();
         }
-        // Setup array as integers 
-        int[] myNumbers;
+        
+        int[] myNumbers; // 로또 당첨 번호 배열 정의
 
-        private static DateTime Delay(int MS)
+        private static DateTime Delay(int MS) // Delay 함수
+           // Thread.sleep 쓰면 일반적인 용도로 대기 시간 주기에는 폼이 멈춰서 불편하기 때문에
+           // 화면이 멈추지 않고 딜레이를 줄 수 있게끔 하는 함수
         {
             DateTime ThisMoment = DateTime.Now;
             TimeSpan duration = new TimeSpan(0, 0, 0, 0, MS);
@@ -35,10 +37,12 @@ namespace LotteryNumbers
             return DateTime.Now;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {   //txtGoodLuck invisible
+        private void button1_Click(object sender, EventArgs e) // START 버튼 클릭 이벤트
+        {   
+            //txtGoodLuck 보여주기
             txtGoodLuck.Visible = false;
-            //set myNumbers invisible
+
+            //txtDisplay 초기화
             txtDisplay1.Text = "";
             txtDisplay2.Text = "";
             txtDisplay3.Text = "";
@@ -46,36 +50,32 @@ namespace LotteryNumbers
             txtDisplay5.Text = "";
             txtDisplay6.Text = "";
             txtDisplay7.Text = "";
-            Delay(1000);
-            // set rnd as random variable
-            Random rnd = new Random();
-            // Set array length
-            myNumbers = new int[7];
-            //init tempNumber
-            int tmpNumber = 0;
-            // For loop to iterate through array 
+
+            Delay(1000); // 딜레이 1초
+
+            Random rnd = new Random(); // 랜덤 함수 선언
+            myNumbers = new int[7]; // 랜덤 배열 길이 
+            int tmpNumber = 0; // tmpNumber 초기화
+             
             for (int i = 0; i < 7; i++)
             {
-                // Generate random number
+                // 숫자 랜덤
                 tmpNumber = rnd.Next(1, 45);
                 
-                //Check tmpNumber is not in myNumbers
+                //중복 검사
                 if (!myNumbers.Contains(tmpNumber))
                 {
-                    //Add number to array
+                    //배열에 i 추가
                     myNumbers[i] = tmpNumber;
                 }
                 else
                 {
-                    //redo
-                    i--;
+                    
+                    i--; // 다시 되돌리기
                 }
             }
-            // Sort array, lowest number first
-            //Array.Sort(myNumbers);
-
-            // Give each textbox the value stored in array[index]
             
+            // 각 배열에 숫자 저장 및 텍스트박스로 출력
             txtDisplay1.Text = myNumbers[0].ToString();
             Delay(1000);
             txtDisplay2.Text = myNumbers[1].ToString();
@@ -90,12 +90,14 @@ namespace LotteryNumbers
             Delay(1000);
             txtDisplay7.Text = myNumbers[6].ToString();
 
-            txtGoodLuck.Visible = true;
-        
-            
+            txtGoodLuck.Visible = true; // txtGoodLuck 띄우기
 
-    }
-        private int index = 0;
+            MessageBox.Show("축하합니다!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            // 랜덤 번호가 끝나면 메세지 박스 띄우기
+        }  
+
+        // label에 타이머로 애니메이션 띄우기
+        private int index = 0; 
         private void timer1_Tick(object sender, EventArgs e)
         {
             index %= imageList1.Images.Count;

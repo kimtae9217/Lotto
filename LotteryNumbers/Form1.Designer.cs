@@ -151,12 +151,12 @@
             this.txtGoodLuck.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.txtGoodLuck.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtGoodLuck.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGoodLuck.Location = new System.Drawing.Point(192, 334);
+            this.txtGoodLuck.Location = new System.Drawing.Point(188, 334);
             this.txtGoodLuck.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.txtGoodLuck.Name = "txtGoodLuck";
-            this.txtGoodLuck.Size = new System.Drawing.Size(173, 30);
+            this.txtGoodLuck.Size = new System.Drawing.Size(190, 30);
             this.txtGoodLuck.TabIndex = 8;
-            this.txtGoodLuck.Text = "축하합니다!";
+            this.txtGoodLuck.Text = "상품 받아가세용^^";
             this.txtGoodLuck.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtGoodLuck.Visible = false;
             // 
@@ -164,14 +164,14 @@
             // 
             this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "8.png");
-            this.imageList1.Images.SetKeyName(1, "1.png");
-            this.imageList1.Images.SetKeyName(2, "2.png");
-            this.imageList1.Images.SetKeyName(3, "3.png");
-            this.imageList1.Images.SetKeyName(4, "4.png");
-            this.imageList1.Images.SetKeyName(5, "5.png");
-            this.imageList1.Images.SetKeyName(6, "6.png");
-            this.imageList1.Images.SetKeyName(7, "7.png");
+            this.imageList1.Images.SetKeyName(0, "KakaoTalk_20191130_141504160.png");
+            this.imageList1.Images.SetKeyName(1, "KakaoTalk_20191130_141504160_01.png");
+            this.imageList1.Images.SetKeyName(2, "KakaoTalk_20191130_141504160_02.png");
+            this.imageList1.Images.SetKeyName(3, "KakaoTalk_20191130_141504160_03.png");
+            this.imageList1.Images.SetKeyName(4, "KakaoTalk_20191130_141504160_04.png");
+            this.imageList1.Images.SetKeyName(5, "KakaoTalk_20191130_141504160_05.png");
+            this.imageList1.Images.SetKeyName(6, "KakaoTalk_20191130_141504160_06.png");
+            this.imageList1.Images.SetKeyName(7, "KakaoTalk_20191130_141504160_07.png");
             // 
             // label1
             // 
@@ -312,7 +312,7 @@
             this.ForeColor = System.Drawing.Color.Coral;
             this.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.Name = "Lottery";
-            this.Text = "Lottery Numbers Generator";
+            this.Text = "로또 당첨 번호";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
