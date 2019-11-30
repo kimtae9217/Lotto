@@ -42,7 +42,20 @@
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.txtDisplay7 = new System.Windows.Forms.TextBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -51,9 +64,9 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.button1.Location = new System.Drawing.Point(137, 368);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button1.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(156, 35);
+            this.button1.Size = new System.Drawing.Size(155, 35);
             this.button1.TabIndex = 0;
             this.button1.Text = "START";
             this.button1.UseVisualStyleBackColor = false;
@@ -61,57 +74,75 @@
             // 
             // txtDisplay1
             // 
+            this.txtDisplay1.BackColor = System.Drawing.Color.Pink;
+            this.txtDisplay1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtDisplay1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDisplay1.Location = new System.Drawing.Point(38, 295);
-            this.txtDisplay1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtDisplay1.Location = new System.Drawing.Point(40, 282);
+            this.txtDisplay1.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.txtDisplay1.Name = "txtDisplay1";
-            this.txtDisplay1.Size = new System.Drawing.Size(39, 30);
+            this.txtDisplay1.Size = new System.Drawing.Size(39, 23);
             this.txtDisplay1.TabIndex = 1;
+            this.txtDisplay1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtDisplay2
             // 
+            this.txtDisplay2.BackColor = System.Drawing.Color.NavajoWhite;
+            this.txtDisplay2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtDisplay2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDisplay2.Location = new System.Drawing.Point(101, 295);
-            this.txtDisplay2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtDisplay2.Location = new System.Drawing.Point(106, 282);
+            this.txtDisplay2.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.txtDisplay2.Name = "txtDisplay2";
-            this.txtDisplay2.Size = new System.Drawing.Size(52, 30);
+            this.txtDisplay2.Size = new System.Drawing.Size(39, 23);
             this.txtDisplay2.TabIndex = 2;
+            this.txtDisplay2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtDisplay3
             // 
+            this.txtDisplay3.BackColor = System.Drawing.Color.PaleGreen;
+            this.txtDisplay3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtDisplay3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDisplay3.Location = new System.Drawing.Point(164, 295);
-            this.txtDisplay3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtDisplay3.Location = new System.Drawing.Point(175, 282);
+            this.txtDisplay3.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.txtDisplay3.Name = "txtDisplay3";
-            this.txtDisplay3.Size = new System.Drawing.Size(52, 30);
+            this.txtDisplay3.Size = new System.Drawing.Size(39, 23);
             this.txtDisplay3.TabIndex = 3;
+            this.txtDisplay3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtDisplay4
             // 
+            this.txtDisplay4.BackColor = System.Drawing.Color.Lavender;
+            this.txtDisplay4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtDisplay4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDisplay4.Location = new System.Drawing.Point(225, 295);
-            this.txtDisplay4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtDisplay4.Location = new System.Drawing.Point(243, 282);
+            this.txtDisplay4.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.txtDisplay4.Name = "txtDisplay4";
-            this.txtDisplay4.Size = new System.Drawing.Size(52, 30);
+            this.txtDisplay4.Size = new System.Drawing.Size(39, 23);
             this.txtDisplay4.TabIndex = 4;
+            this.txtDisplay4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtDisplay5
             // 
+            this.txtDisplay5.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.txtDisplay5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtDisplay5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDisplay5.Location = new System.Drawing.Point(287, 295);
-            this.txtDisplay5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtDisplay5.Location = new System.Drawing.Point(309, 282);
+            this.txtDisplay5.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.txtDisplay5.Name = "txtDisplay5";
-            this.txtDisplay5.Size = new System.Drawing.Size(52, 30);
+            this.txtDisplay5.Size = new System.Drawing.Size(39, 23);
             this.txtDisplay5.TabIndex = 5;
+            this.txtDisplay5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtDisplay6
             // 
+            this.txtDisplay6.BackColor = System.Drawing.Color.Crimson;
+            this.txtDisplay6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtDisplay6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDisplay6.Location = new System.Drawing.Point(348, 295);
-            this.txtDisplay6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtDisplay6.Location = new System.Drawing.Point(376, 282);
+            this.txtDisplay6.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.txtDisplay6.Name = "txtDisplay6";
-            this.txtDisplay6.Size = new System.Drawing.Size(52, 30);
+            this.txtDisplay6.Size = new System.Drawing.Size(39, 23);
             this.txtDisplay6.TabIndex = 6;
+            this.txtDisplay6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtGoodLuck
             // 
@@ -119,7 +150,7 @@
             this.txtGoodLuck.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtGoodLuck.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGoodLuck.Location = new System.Drawing.Point(128, 332);
-            this.txtGoodLuck.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtGoodLuck.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.txtGoodLuck.Name = "txtGoodLuck";
             this.txtGoodLuck.Size = new System.Drawing.Size(173, 30);
             this.txtGoodLuck.TabIndex = 8;
@@ -131,21 +162,21 @@
             // 
             this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "KakaoTalk_20191122_160729004.png");
-            this.imageList1.Images.SetKeyName(1, "KakaoTalk_20191122_160729004_01.png");
-            this.imageList1.Images.SetKeyName(2, "KakaoTalk_20191122_160729004_02.png");
-            this.imageList1.Images.SetKeyName(3, "KakaoTalk_20191122_160729004_03.png");
-            this.imageList1.Images.SetKeyName(4, "KakaoTalk_20191122_160729004_04.png");
-            this.imageList1.Images.SetKeyName(5, "KakaoTalk_20191122_162835614.png");
-            this.imageList1.Images.SetKeyName(6, "KakaoTalk_20191122_162835614_01.png");
-            this.imageList1.Images.SetKeyName(7, "KakaoTalk_20191122_162835614_02.png");
+            this.imageList1.Images.SetKeyName(0, "8.png");
+            this.imageList1.Images.SetKeyName(1, "1.png");
+            this.imageList1.Images.SetKeyName(2, "2.png");
+            this.imageList1.Images.SetKeyName(3, "3.png");
+            this.imageList1.Images.SetKeyName(4, "4.png");
+            this.imageList1.Images.SetKeyName(5, "5.png");
+            this.imageList1.Images.SetKeyName(6, "6.png");
+            this.imageList1.Images.SetKeyName(7, "7.png");
             // 
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.PaleTurquoise;
             this.label1.Location = new System.Drawing.Point(58, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(327, 267);
+            this.label1.Size = new System.Drawing.Size(320, 250);
             this.label1.TabIndex = 9;
             // 
             // timer1
@@ -156,19 +187,99 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(23, 279);
+            this.pictureBox1.Location = new System.Drawing.Point(22, 265);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(71, 62);
+            this.pictureBox1.Size = new System.Drawing.Size(75, 60);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(87, 265);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(75, 60);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 11;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(155, 265);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(75, 60);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 12;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(224, 265);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(75, 60);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 13;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(290, 265);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(75, 60);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 14;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(357, 265);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(75, 60);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 15;
+            this.pictureBox6.TabStop = false;
+            // 
+            // txtDisplay7
+            // 
+            this.txtDisplay7.BackColor = System.Drawing.Color.Crimson;
+            this.txtDisplay7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtDisplay7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDisplay7.Location = new System.Drawing.Point(357, 352);
+            this.txtDisplay7.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
+            this.txtDisplay7.Name = "txtDisplay7";
+            this.txtDisplay7.Size = new System.Drawing.Size(39, 23);
+            this.txtDisplay7.TabIndex = 16;
+            this.txtDisplay7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(340, 334);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(75, 60);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 17;
+            this.pictureBox7.TabStop = false;
             // 
             // Lottery
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.ClientSize = new System.Drawing.Size(436, 405);
+            this.ClientSize = new System.Drawing.Size(437, 405);
+            this.Controls.Add(this.txtDisplay7);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtGoodLuck);
             this.Controls.Add(this.txtDisplay6);
@@ -179,11 +290,23 @@
             this.Controls.Add(this.txtDisplay1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pictureBox7);
             this.ForeColor = System.Drawing.Color.Coral;
-            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.Name = "Lottery";
             this.Text = "Lottery Numbers Generator";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,11 +321,18 @@
         private System.Windows.Forms.TextBox txtDisplay4;
         private System.Windows.Forms.TextBox txtDisplay5;
         private System.Windows.Forms.TextBox txtDisplay6;
+        private System.Windows.Forms.TextBox txtDisplay7;
         private System.Windows.Forms.TextBox txtGoodLuck;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }
 

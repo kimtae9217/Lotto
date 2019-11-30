@@ -36,23 +36,25 @@ namespace LotteryNumbers
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-            //set myNumbers unvisible
+        {   //txtGoodLuck invisible
+            txtGoodLuck.Visible = false;
+            //set myNumbers invisible
             txtDisplay1.Text = "";
             txtDisplay2.Text = "";
             txtDisplay3.Text = "";
             txtDisplay4.Text = "";
             txtDisplay5.Text = "";
             txtDisplay6.Text = "";
+            txtDisplay7.Text = "";
             Delay(1000);
             // set rnd as random variable
             Random rnd = new Random();
             // Set array length
-            myNumbers = new int[6];
+            myNumbers = new int[7];
             //init tempNumber
             int tmpNumber = 0;
             // For loop to iterate through array 
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < 7; i++)
             {
                 // Generate random number
                 tmpNumber = rnd.Next(1, 45);
@@ -75,18 +77,19 @@ namespace LotteryNumbers
             // Give each textbox the value stored in array[index]
             
             txtDisplay1.Text = myNumbers[0].ToString();
-            Delay(2000);
+            Delay(1000);
             txtDisplay2.Text = myNumbers[1].ToString();
-            Delay(2000);
+            Delay(1000);
             txtDisplay3.Text = myNumbers[2].ToString();
-            Delay(2000);
+            Delay(1000);
             txtDisplay4.Text = myNumbers[3].ToString();
-            Delay(2000);
+            Delay(1000);
             txtDisplay5.Text = myNumbers[4].ToString();
-            Delay(2000);
+            Delay(1000);
             txtDisplay6.Text = myNumbers[5].ToString();
-            Delay(2000);
-            
+            Delay(1000);
+            txtDisplay7.Text = myNumbers[6].ToString();
+
             txtGoodLuck.Visible = true;
         
             
